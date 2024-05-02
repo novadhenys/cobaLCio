@@ -1,0 +1,64 @@
+/* Reset default browser styles */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Style header */
+header {
+   background-color: #ccae6e;
+   color: #fff;
+   padding:  10px;
+   width: 500px;
+}
+
+/* Style main content */
+main {
+   padding: 20px;
+}
+
+/* Style order summary */
+.order-summary {
+   margin-bottom: 20px;
+   padding-right: 20px;
+}
+
+/* Style order items */
+.order-items {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+   gap: 20px;
+}
+
+.item {
+   display: flex;
+   border: 1px solid #ddd;
+   padding: 10px;
+}
+
+.item img {
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+   margin-right: 10px;
+}
+
+.item-details {
+   flex: 1;
+}
+
+/* Style order total */
+.order-total {
+   margin-top: 20px;
+   border-top: 2px solid #ccae6e;
+   padding-top: 10px;
+}
+
+/* Style footer */
+footer {
+   background-color: #ccae6e;
+   color: #fff;
+   padding: 10px 20px;
+   text-align: center;
+}

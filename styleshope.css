@@ -1,0 +1,18 @@
+.gambar-ukuran {
+   width: 50px; 
+   height: auto; 
+}
+.container {
+   width: 50px;
+   overflow: hidden;
+}
+.left-image, .right-image {
+   width: 25%;
+   float: left;
+   box-sizing: border-box;
+   padding: 10px;
+}
+.left-image img, .right-image img {
+   width: 50%;
+   display: block;
+}
